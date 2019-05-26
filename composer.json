@@ -1,0 +1,10 @@
+{
+    "name": "tryte/wordpress-schwarzsee",
+    "license": "proprietary",
+    "type": "wordpress-theme",
+    "description": "Theme for schwarzsee.com",
+    "require": {
+      "php": ">=7.1"
+    },
+    "minimum-stability": "dev"
+}
