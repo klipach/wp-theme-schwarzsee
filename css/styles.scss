@@ -24,16 +24,16 @@
 }
 
 body {
+  font-family: 'PlainBoldRegular', Arial;
 }
 
 .genath {
   font-family: 'GenathRegularItalic';
-  font-size: 700%;
+  font-size: 600%;
 }
 
 .site-content {
-
-  padding: 30px;
+  padding: 40px 30px;
 }
 .post {
   &__body {

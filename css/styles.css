@@ -12,12 +12,15 @@
   src: url("./../fonts/plain/plain-bold-regular.eot");
   src: url("./../fonts/plain/plain-bold-regular.eot") format("embedded-opentype"), url("./../fonts/plain/plain-bold-regular.woff2") format("woff2"), url("./../fonts/plain/plain-bold-regular.woff") format("woff"), url("./../fonts/plain/plain-bold-regular.ttf") format("truetype"), url("./../fonts/plain/plain-bold-regular.svg#PlainBoldRegular") format("svg"); }
 
+body {
+  font-family: 'PlainBoldRegular', Arial; }
+
 .genath {
   font-family: 'GenathRegularItalic';
-  font-size: 700%; }
+  font-size: 600%; }
 
 .site-content {
-  padding: 30px; }
+  padding: 40px 30px; }
 
 .post__body {
   text-align: center; }

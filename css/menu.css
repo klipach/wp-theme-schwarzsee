@@ -1,7 +1,10 @@
 .menu__wrapper {
+  border-bottom: 1px solid #ccc;
+  background: #fff;
   display: block;
-  margin: 20px;
-  position: relative;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none; }
@@ -11,10 +14,8 @@
       border-bottom: 2px solid #000;
       border-top: 2px solid #000;
       bottom: 0;
-      margin: 0;
-      position: fixed;
-      text-align: center;
-      width: 100%; } }
+      padding: 0;
+      text-align: center; } }
 
 .menu__wrapper input {
   display: block;
@@ -82,7 +83,6 @@
  */
 .menu {
   display: block;
-  font-family: 'PlainBoldRegular', Arial;
   position: absolute;
   margin: -100px 0 0 -50px;
   padding: 125px 50px 50px;
@@ -110,6 +110,9 @@
       font-size: 17px;
       text-decoration: none;
       text-transform: uppercase; }
+      @media screen and (min-width: 480px) {
+        .menu li a {
+          font-size: 20px; } }
 
 /*
  * And let's slide it in from the left
