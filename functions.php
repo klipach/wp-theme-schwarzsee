@@ -20,6 +20,23 @@ function schwarzsee_setup() {
 add_action( 'after_setup_theme', 'schwarzsee_setup' );
 
 /*-----------------------------------------------------------------------------------*/
+/*	Add theme css files
+/*-----------------------------------------------------------------------------------*/
+
+function schwarzsee_enqueue_styles()
+{
+	// register our stylesheets
+	wp_register_style('main', get_template_directory_uri() . '/css/styles.css');
+	wp_register_style('menu', get_template_directory_uri() . '/css/menu.css');
+
+	// enqueue our stylesheets
+	wp_enqueue_style('main');
+	wp_enqueue_style('menu');
+}
+
+add_action('wp_enqueue_scripts', 'schwarzsee_enqueue_styles');
+
+/*-----------------------------------------------------------------------------------*/
 /*	Add custom logo to admin login form
 /*-----------------------------------------------------------------------------------*/
 

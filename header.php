@@ -13,5 +13,12 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
+	<nav class="menu__wrapper" role="navigation">
+		<input type="checkbox" />
+		<span></span>
+		<span></span>
+		<span></span>
+		<?php wp_nav_menu(['theme_location' => '', 'container' => '' , 'menu_class' => 'menu' ]); ?>
+	</nav>
 	<div id="content" class="site-content">
 
