@@ -14,6 +14,16 @@
 }
 
 @font-face {
+  font-family: 'GenathRegular';
+  src: url('./../fonts/genath/genath-regular.eot');
+  src: url('./../fonts/genath/genath-regular.eot') format('embedded-opentype'),
+  url('./../fonts/genath/genath-regular.woff2') format('woff2'),
+  url('./../fonts/genath/genath-regular.woff') format('woff'),
+  url('./../fonts/genath/genath-regular.ttf') format('truetype'),
+  url('./../fonts/genath/genath-regular.svg#GenathRegularItalic') format('svg');
+}
+
+@font-face {
   font-family: 'PlainBoldRegular';
   src: url('./../fonts/plain/plain-bold-regular.eot');
   src: url('./../fonts/plain/plain-bold-regular.eot') format('embedded-opentype'),
@@ -27,9 +37,21 @@ body {
   font-family: 'PlainBoldRegular', Arial;
 }
 
-.genath {
-  font-family: 'GenathRegularItalic';
-  font-size: 6em;
+.font {
+  &__genath-italic {
+    font-family: 'GenathRegularItalic';
+    font-size: 6em;
+  }
+
+  &__genath-regular {
+    font-family: 'GenathRegular';
+    font-size: 6em;
+  }
+
+  &__palin {
+    font-family: 'PlainBoldRegular';
+    font-size: 6em;
+  }
 }
 
 .site-content {
@@ -37,7 +59,11 @@ body {
 }
 .post {
   &__body {
+    font-family: 'GenathRegular';
     text-align: center;
+    & strong {
+      font-family: 'PlainBoldRegular', Arial;
+    }
   }
 }
 
