@@ -119,8 +119,15 @@
     width: auto;
   };
   & li {
-    display: inline-block;
-    margin: 10px 20px;
+    display: block;
+    margin: 15px 20px 15px 40px;
+    @media screen and (min-width: 480px) {
+      display: inline-block;
+      margin: 10px 15px;
+    }
+    &.current-menu-item {
+      border-bottom: 2px solid #000;
+    }
     & a {
       color: #000;
       font-size: 17px;
