@@ -15,6 +15,7 @@ function schwarzsee_setup() {
 		)
 	);
 
+	add_editor_style('css/editor.css');
 }
 
 add_action( 'after_setup_theme', 'schwarzsee_setup' );

@@ -1,65 +1,23 @@
+@import "editor.scss";
+
 * {
   margin: 0;
   padding: 0;
 }
 
-@font-face {
-  font-family: 'GenathRegularItalic';
-  src: url('./../fonts/genath/genath-regular-italic.eot');
-  src: url('./../fonts/genath/genath-regular-italic.eot') format('embedded-opentype'),
-  url('./../fonts/genath/genath-regular-italic.woff2') format('woff2'),
-  url('./../fonts/genath/genath-regular-italic.woff') format('woff'),
-  url('./../fonts/genath/genath-regular-italic.ttf') format('truetype'),
-  url('./../fonts/genath/genath-regular-italic.svg#GenathRegularItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'GenathRegular';
-  src: url('./../fonts/genath/genath-regular.eot');
-  src: url('./../fonts/genath/genath-regular.eot') format('embedded-opentype'),
-  url('./../fonts/genath/genath-regular.woff2') format('woff2'),
-  url('./../fonts/genath/genath-regular.woff') format('woff'),
-  url('./../fonts/genath/genath-regular.ttf') format('truetype'),
-  url('./../fonts/genath/genath-regular.svg#GenathRegularItalic') format('svg');
-}
-
-@font-face {
-  font-family: 'PlainBoldRegular';
-  src: url('./../fonts/plain/plain-bold-regular.eot');
-  src: url('./../fonts/plain/plain-bold-regular.eot') format('embedded-opentype'),
-  url('./../fonts/plain/plain-bold-regular.woff2') format('woff2'),
-  url('./../fonts/plain/plain-bold-regular.woff') format('woff'),
-  url('./../fonts/plain/plain-bold-regular.ttf') format('truetype'),
-  url('./../fonts/plain/plain-bold-regular.svg#PlainBoldRegular') format('svg');
-}
-
-body {
-  font-family: 'PlainBoldRegular', Arial;
-}
-
-.font {
-  &__genath-italic {
-    font-family: 'GenathRegularItalic';
-    font-size: 6em;
-  }
-
-  &__genath-regular {
-    font-family: 'GenathRegular';
-    font-size: 6em;
-  }
-
-  &__palin {
-    font-family: 'PlainBoldRegular';
-    font-size: 6em;
-  }
-}
-
 .site-content {
   padding: 65px 30px;
 }
+
 .post {
   &__body {
+    // Impressum page
+    .page-id-21 & {
+      font-family: 'PlainBoldRegular', Arial;
+    }
+
     font-family: 'GenathRegular';
+    font-size: 2em;
     text-align: center;
     & strong {
       font-family: 'PlainBoldRegular', Arial;

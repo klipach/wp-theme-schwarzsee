@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'GenathRegularItalic';
+  src: url('./../fonts/genath/genath-regular-italic.eot');
+  src: url('./../fonts/genath/genath-regular-italic.eot') format('embedded-opentype'),
+  url('./../fonts/genath/genath-regular-italic.woff2') format('woff2'),
+  url('./../fonts/genath/genath-regular-italic.woff') format('woff'),
+  url('./../fonts/genath/genath-regular-italic.ttf') format('truetype'),
+  url('./../fonts/genath/genath-regular-italic.svg#GenathRegularItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'GenathRegular';
+  src: url('./../fonts/genath/genath-regular.eot');
+  src: url('./../fonts/genath/genath-regular.eot') format('embedded-opentype'),
+  url('./../fonts/genath/genath-regular.woff2') format('woff2'),
+  url('./../fonts/genath/genath-regular.woff') format('woff'),
+  url('./../fonts/genath/genath-regular.ttf') format('truetype'),
+  url('./../fonts/genath/genath-regular.svg#GenathRegularItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'PlainBoldRegular';
+  src: url('./../fonts/plain/plain-bold-regular.eot');
+  src: url('./../fonts/plain/plain-bold-regular.eot') format('embedded-opentype'),
+  url('./../fonts/plain/plain-bold-regular.woff2') format('woff2'),
+  url('./../fonts/plain/plain-bold-regular.woff') format('woff'),
+  url('./../fonts/plain/plain-bold-regular.ttf') format('truetype'),
+  url('./../fonts/plain/plain-bold-regular.svg#PlainBoldRegular') format('svg');
+}
+
+.font {
+  &__genath-italic {
+    font-family: 'GenathRegularItalic';
+  }
+
+  &__genath-regular {
+    font-family: 'GenathRegular';
+  }
+
+  &__plain {
+    font-family: 'PlainBoldRegular';
+  }
+}
+
+table {
+  font-family: 'PlainBoldRegular';
+  margin: 0 auto;
+  td {
+    font-size: 0.9em;
+    padding: 4px 6px;
+    text-align: left;
+  }
+}

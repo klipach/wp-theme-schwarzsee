@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0; }
-
 @font-face {
   font-family: 'GenathRegularItalic';
   src: url("./../fonts/genath/genath-regular-italic.eot");
@@ -17,26 +13,35 @@
   src: url("./../fonts/plain/plain-bold-regular.eot");
   src: url("./../fonts/plain/plain-bold-regular.eot") format("embedded-opentype"), url("./../fonts/plain/plain-bold-regular.woff2") format("woff2"), url("./../fonts/plain/plain-bold-regular.woff") format("woff"), url("./../fonts/plain/plain-bold-regular.ttf") format("truetype"), url("./../fonts/plain/plain-bold-regular.svg#PlainBoldRegular") format("svg"); }
 
-body {
-  font-family: 'PlainBoldRegular', Arial; }
-
 .font__genath-italic {
-  font-family: 'GenathRegularItalic';
-  font-size: 6em; }
+  font-family: 'GenathRegularItalic'; }
 
 .font__genath-regular {
-  font-family: 'GenathRegular';
-  font-size: 6em; }
+  font-family: 'GenathRegular'; }
 
-.font__palin {
+.font__plain {
+  font-family: 'PlainBoldRegular'; }
+
+table {
   font-family: 'PlainBoldRegular';
-  font-size: 6em; }
+  margin: 0 auto; }
+  table td {
+    font-size: 0.9em;
+    padding: 4px 6px;
+    text-align: left; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 .site-content {
   padding: 65px 30px; }
 
 .post__body {
   font-family: 'GenathRegular';
+  font-size: 2em;
   text-align: center; }
+  .page-id-21 .post__body {
+    font-family: 'PlainBoldRegular', Arial; }
   .post__body strong {
     font-family: 'PlainBoldRegular', Arial; }

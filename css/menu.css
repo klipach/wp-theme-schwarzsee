@@ -82,6 +82,7 @@
  * at the top left of the screen
  */
 .menu {
+  font-family: 'PlainBoldRegular';
   display: block;
   position: absolute;
   margin: -100px 0 0 -50px;
