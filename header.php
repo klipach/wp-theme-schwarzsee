@@ -18,6 +18,7 @@
 		<span></span>
 		<span></span>
 		<span></span>
+		<div class="menu__logo">schwarzsee</div>
 		<?php wp_nav_menu(['theme_location' => '', 'container' => '' , 'menu_class' => 'menu' ]); ?>
 	</nav>
 	<div id="content" class="site-content">
