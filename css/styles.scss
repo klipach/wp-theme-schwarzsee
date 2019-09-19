@@ -6,7 +6,7 @@
 }
 
 .site-content {
-  padding: 85px 30px;
+  padding: 70px 30px;
   @media screen and (min-width: 480px) {
     padding: 65px 30px;
   }
@@ -18,9 +18,11 @@
     .page-id-21 & {
       font-family: 'PlainBoldRegular', Arial;
     }
-
+    img.aligncenter {
+      display: block;
+      margin: 0 auto;
+    }
     font-family: 'GenathRegular';
-    font-size: 0.9em;
     text-align: justify;
     & strong {
       font-family: 'PlainBoldRegular', Arial;

@@ -35,17 +35,19 @@ table {
   padding: 0; }
 
 .site-content {
-  padding: 85px 30px; }
+  padding: 70px 30px; }
   @media screen and (min-width: 480px) {
     .site-content {
       padding: 65px 30px; } }
 
 .post__body {
   font-family: 'GenathRegular';
-  font-size: 0.9em;
   text-align: justify; }
   .page-id-21 .post__body {
     font-family: 'PlainBoldRegular', Arial; }
+  .post__body img.aligncenter {
+    display: block;
+    margin: 0 auto; }
   .post__body strong {
     font-family: 'PlainBoldRegular', Arial; }
   @media screen and (min-width: 640px) {
