@@ -22,6 +22,22 @@
 .font__plain {
   font-family: 'PlainBoldRegular'; }
 
+.align__left {
+  margin-bottom: 20px; }
+  @media screen and (min-width: 480px) {
+    .align__left {
+      float: left;
+      width: 70%; } }
+
+.align__right {
+  margin-bottom: 20px;
+  text-align: center; }
+  @media screen and (min-width: 480px) {
+    .align__right {
+      float: right;
+      width: 30%;
+      text-align: left; } }
+
 table {
   font-family: 'PlainBoldRegular';
   margin: 0 auto; }

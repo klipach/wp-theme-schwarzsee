@@ -42,6 +42,25 @@
   }
 }
 
+.align {
+  &__left {
+    margin-bottom: 20px;
+    @media screen and (min-width: 480px) {
+      float: left;
+      width: 70%;
+    }
+  }
+  &__right {
+    margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: 480px) {
+      float: right;
+      width: 30%;
+      text-align: left;
+    }
+  }
+}
+
 table {
   font-family: 'PlainBoldRegular';
   margin: 0 auto;
