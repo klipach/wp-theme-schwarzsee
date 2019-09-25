@@ -54,19 +54,10 @@
     margin-bottom: 20px;
     text-align: center;
     @media screen and (min-width: 480px) {
+      font-size: 0.7em;
       float: right;
       width: 30%;
       text-align: left;
     }
-  }
-}
-
-table {
-  font-family: 'PlainBoldRegular';
-  margin: 0 auto;
-  td {
-    font-size: 0.9em;
-    padding: 4px 6px;
-    text-align: left;
   }
 }

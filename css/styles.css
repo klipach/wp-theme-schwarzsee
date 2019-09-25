@@ -34,17 +34,10 @@
   text-align: center; }
   @media screen and (min-width: 480px) {
     .align__right {
+      font-size: 0.7em;
       float: right;
       width: 30%;
       text-align: left; } }
-
-table {
-  font-family: 'PlainBoldRegular';
-  margin: 0 auto; }
-  table td {
-    font-size: 0.9em;
-    padding: 4px 6px;
-    text-align: left; }
 
 * {
   margin: 0;
@@ -57,6 +50,7 @@ table {
       padding: 65px 30px; } }
 
 .post__body {
+  font-size: 1.5em;
   font-family: 'GenathRegular';
   text-align: justify; }
   .page-id-21 .post__body {
@@ -71,4 +65,4 @@ table {
       font-size: 2em; } }
   @media screen and (min-width: 480px) {
     .post__body {
-      font-size: 1.25em; } }
+      font-size: 1.5em; } }
