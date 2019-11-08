@@ -15,6 +15,11 @@
 .post {
   &__body {
     font-size: 1.5em;
+    font-family: 'GenathRegular';
+    text-align: justify;
+    @media screen and (max-width: 480px) {
+      text-align: left;
+    }
     .page-id-21 & { // Impressum page
       font-family: 'PlainBoldRegular', Arial;
       @media screen and (max-width: 480px) {
@@ -24,6 +29,13 @@
     .page-id-11 & { // Essentials page
       @media screen and (max-width: 480px) {
         font-size: 1em;
+      }
+    }
+    .page-id-122 & { // Team
+      @media screen and (max-width: 480px) {
+        .font__plain {
+          font-size: 0.67em;
+        }
       }
     }
     .page-id-109 &, .page-id-19 & { // Editorial events, Everything for this time
@@ -37,8 +49,6 @@
       display: block;
       margin: 0 auto;
     }
-    font-family: 'GenathRegular';
-    text-align: justify;
     & strong {
       font-family: 'PlainBoldRegular', Arial;
     }

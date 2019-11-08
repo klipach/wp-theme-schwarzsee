@@ -53,6 +53,9 @@
   font-size: 1.5em;
   font-family: 'GenathRegular';
   text-align: justify; }
+  @media screen and (max-width: 480px) {
+    .post__body {
+      text-align: left; } }
   .page-id-21 .post__body {
     font-family: 'PlainBoldRegular', Arial; }
     @media screen and (max-width: 480px) {
@@ -61,6 +64,9 @@
   @media screen and (max-width: 480px) {
     .page-id-11 .post__body {
       font-size: 1em; } }
+  @media screen and (max-width: 480px) {
+    .page-id-122 .post__body .font__plain {
+      font-size: 0.67em; } }
   @media screen and (max-width: 480px) {
     .page-id-109 .post__body strong, .page-id-19 .post__body strong {
       font-weight: normal; } }
